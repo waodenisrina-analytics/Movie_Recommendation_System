@@ -24,15 +24,22 @@ movie-recommender/
     └── movies_df.pkl
 
 ---
+```
 
 ## 🚀 Cara Menjalankan Aplikasi
 
-### 1. Install dependencies
+### 1. Unduh Dataset
+Dataset raw (untuk menjalankan notebook) : https://www.kaggle.com/datasets/asaniczka/tmdb-movies-dataset-2023-930k-movies/data                                                                                                                  
+Dataset clean : https://github.com/waodenisrina-analytics/Movie_Recommendation_System/blob/main/TMDB_movie_dataset_finall.csv
+
+### 2. Masukkan Dataset, train.py, serta app.py dalam 1 folder
+
+### 3. Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-### 2. Jalankan training 
+### 4. Jalankan training 
 ```bash
 python train.py
 ```
@@ -42,7 +49,7 @@ Proses ini akan:
 - Menghitung Weighted Score
 - Menyimpan semua artifacts ke folder `artifacts/`
 
-### 3. Jalankan aplikasi Streamlit
+### 5. Jalankan aplikasi Streamlit
 ```bash
 streamlit run app.py
 ```
