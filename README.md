@@ -4,12 +4,6 @@ Aplikasi rekomendasi film berbasis **Content-Based Filtering** (TF-IDF + Cosine 
 
 ---
 
-# 🎬 CineMatch: Movie Recommendation System
-
-Aplikasi rekomendasi film berbasis **Content-Based Filtering** (TF-IDF + Cosine Similarity) menggunakan Streamlit.
-
----
-
 ## 📁 Struktur Folder
 
 ```text
