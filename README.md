@@ -2,6 +2,7 @@
 
 Aplikasi rekomendasi film berbasis **Content-Based Filtering** (TF-IDF + Cosine Similarity) menggunakan Streamlit.
 
+Link aplikasi (deployment dengan streamlit) : https://movierecommendationsystem-kaphgyrpffauypm9qfqsxx.streamlit.app/
 ---
 
 ## 📁 Struktur Folder
@@ -23,14 +24,14 @@ movie-recommender/
 
 ---
 
-## 🚀 Cara Menjalankan
+## 🚀 Cara Menjalankan Aplikasi
 
 ### 1. Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-### 2. Jalankan training (SEKALI SAJA)
+### 2. Jalankan training 
 ```bash
 python train.py
 ```
@@ -40,7 +41,7 @@ Proses ini akan:
 - Menghitung Weighted Score
 - Menyimpan semua artifacts ke folder `artifacts/`
 
-### 4. Jalankan aplikasi Streamlit
+### 3. Jalankan aplikasi Streamlit
 ```bash
 streamlit run app.py
 ```
