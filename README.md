@@ -92,8 +92,6 @@ CSV Dataset
     │
     ▼
 [ train.py ]
-    ├─ Filter (vote_count ≥ 100, rating ≥ 1.0)
-    ├─ Text Cleaning (lowercase, remove punctuation)
     ├─ Feature Engineering:
     │   ├─ combined_features = overview + genres×2 + keywords×2
     │   └─ weighted_score (Bayesian Average)
